@@ -32,55 +32,62 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+month = month_name[todaymonth]
+
 name = input("Hello, what is your name? ")
 month = input("Hi, " + name + " what month were you born in? ")
 year = int(input("And what year were you born in, " + name + "? "))
-day= input("And the day? ")
+day= int(input("And the day? "))
 
 #Halloween and Birthday
 if month == "October" and day == "31": 
     print("You were born on Halloween!")
-if month == "September" and day == "19": 
+if month == month and day == todaydate: 
     print("Happy Birthday!")
- 
+    
+else:
 #Stone Age 
-if 0<=year<=1979 and month in [ "September", "October", "November"]:
+    if 0<=year<=1979 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the Stone Age!")
-if 0<=year<=1979 and month in [ "December", "January", "February"]:
+    if 0<=year<=1979 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the Stone Age!")
-if 0<=year<=1979 and month in [ "March", "April", "May"]:
+    if 0<=year<=1979 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the Stone Age!")
-if 0<=year<=1979 and month in [ "June", "July", "August"]:
+    if 0<=year<=1979 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the Stone Age!")
     
 #eighties
-if 1980<=year<=1989 and month in [ "September", "October", "November"]:
+    if 1980<=year<=1989 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the eighties!")
-if 1980<=year<=1989 and month in [ "December", "January", "February"]:
+    if 1980<=year<=1989 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the eighties!")
-if 1980<=year<=1989 and month in [ "March", "April", "May"]:
+    if 1980<=year<=1989 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the eighties!")
-if 1980<=year<=1989 and month in [ "June", "July", "August"]:
+    if 1980<=year<=1989 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the eighties!")
     
 #nineties
-if 1990<=year<=1999 and month in [ "September", "October", "November"]:
+    if 1990<=year<=1999 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the nineties!")
-if 1990<=year<=1999 and month in [ "December", "January", "February"]:
+    if 1990<=year<=1999 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the nineties!")
-if 1990<=year<=1999 and month in [ "March", "April", "May"]:
+    if 1990<=year<=1999 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the nineties!")
-if 1990<=year<=1999 and month in [ "June", "July", "August"]:
+    if 1990<=year<=1999 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the nineties!")
 
 #two thousands
-if 2000<=year<=2018 and month in [ "September", "October", "November"]:
+    if 2000<=year<=2018 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the two thousands!")
-if 2000<=year<=2018 and month in [ "December", "January", "February"]:
+    if 2000<=year<=2018 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the two thousands!")
-if 2000<=year<=2018 and month in [ "March", "April", "May"]:
+    if 2000<=year<=2018 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the two thousands!")
-if 2000<=year<=2018 and month in [ "June", "July", "August"]:
+    if 2000<=year<=2018 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the two thousands!")
 
 
