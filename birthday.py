@@ -52,43 +52,43 @@ elif month == month and day == todaydate:
 
 #Stone Age 
 elif 0<=year<=1979 and month in [ "September", "October", "November"]:
-    print("You are a fall baby of the Stone Age!")
+    print(name + ", you are a fall baby of the Stone Age.")
 elif 0<=year<=1979 and month in [ "December", "January", "February"]:
-    print("You are a winter baby of the Stone Age!")
+    print(name+ ", you are a winter baby of the Stone Age.")
 elif 0<=year<=1979 and month in [ "March", "April", "May"]:
-    print("You are a spring baby of the Stone Age!")
+    print(name+ ", you are a spring baby of the Stone Age.")
 elif 0<=year<=1979 and month in [ "June", "July", "August"]:
-    print("You are a summer baby of the Stone Age!")
+    print(name+ ", you are a summer baby of the Stone Age.")
     
 #eighties
 elif 1980<=year<=1989 and month in [ "September", "October", "November"]:
-    print("You are a fall baby of the eighties!")
+    print(name+ ", you are a fall baby of the eighties.")
 elif 1980<=year<=1989 and month in [ "December", "January", "February"]:
-    print("You are a winter baby of the eighties!")
+    print(name+ ", you are a winter baby of the eighties.")
 elif 1980<=year<=1989 and month in [ "March", "April", "May"]:
-    print("You are a spring baby of the eighties!")
+    print(name+ ", you are a spring baby of the eighties.")
 elif 1980<=year<=1989 and month in [ "June", "July", "August"]:
-    print("You are a summer baby of the eighties!")
+    print(name+ ", you are a summer baby of the eighties.")
     
 #nineties
 elif 1990<=year<=1999 and month in [ "September", "October", "November"]:
-    print("You are a fall baby of the nineties!")
+    print(name+ ", you are a fall baby of the nineties.")
 elif 1990<=year<=1999 and month in [ "December", "January", "February"]:
-    print("You are a winter baby of the nineties!")
+    print(name+ ", you are a winter baby of the nineties.")
 elif 1990<=year<=1999 and month in [ "March", "April", "May"]:
-    print("You are a spring baby of the nineties!")
+    print(name+ ", you are a spring baby of the nineties.")
 elif 1990<=year<=1999 and month in [ "June", "July", "August"]:
-    print("You are a summer baby of the nineties!")
+    print(name+ ", you are a summer baby of the nineties.")
 
 #two thousands
 elif 2000<=year<=2018 and month in [ "September", "October", "November"]:
-    print("You are a fall baby of the two thousands!")
+    print(name+ ", you are a fall baby of the two thousands.")
 elif 2000<=year<=2018 and month in [ "December", "January", "February"]:
-    print("You are a winter baby of the two thousands!")
+    print(name+ ", you are a winter baby of the two thousands.")
 elif 2000<=year<=2018 and month in [ "March", "April", "May"]:
-    print("You are a spring baby of the two thousands!")
+    print(name+ ", you are a spring baby of the two thousands.")
 elif 2000<=year<=2018 and month in [ "June", "July", "August"]:
-    print("You are a summer baby of the two thousands!")
+    print(name+ ", you are a summer baby of the two thousands.")
 
 
 
