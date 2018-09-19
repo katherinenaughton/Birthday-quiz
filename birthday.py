@@ -49,45 +49,45 @@ if month == "October" and day == "31":
 if month == month and day == todaydate: 
     print("Happy Birthday!")
     
-else:
+
 #Stone Age 
-    if 0<=year<=1979 and month in [ "September", "October", "November"]:
+elif 0<=year<=1979 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the Stone Age!")
-    if 0<=year<=1979 and month in [ "December", "January", "February"]:
+elif 0<=year<=1979 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the Stone Age!")
-    if 0<=year<=1979 and month in [ "March", "April", "May"]:
+elif 0<=year<=1979 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the Stone Age!")
-    if 0<=year<=1979 and month in [ "June", "July", "August"]:
+elif 0<=year<=1979 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the Stone Age!")
     
 #eighties
-    if 1980<=year<=1989 and month in [ "September", "October", "November"]:
+elif 1980<=year<=1989 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the eighties!")
-    if 1980<=year<=1989 and month in [ "December", "January", "February"]:
+elif 1980<=year<=1989 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the eighties!")
-    if 1980<=year<=1989 and month in [ "March", "April", "May"]:
+elif 1980<=year<=1989 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the eighties!")
-    if 1980<=year<=1989 and month in [ "June", "July", "August"]:
+elif 1980<=year<=1989 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the eighties!")
     
 #nineties
-    if 1990<=year<=1999 and month in [ "September", "October", "November"]:
+elif 1990<=year<=1999 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the nineties!")
-    if 1990<=year<=1999 and month in [ "December", "January", "February"]:
+elif 1990<=year<=1999 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the nineties!")
-    if 1990<=year<=1999 and month in [ "March", "April", "May"]:
+elif 1990<=year<=1999 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the nineties!")
-    if 1990<=year<=1999 and month in [ "June", "July", "August"]:
+elif 1990<=year<=1999 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the nineties!")
 
 #two thousands
-    if 2000<=year<=2018 and month in [ "September", "October", "November"]:
+elif 2000<=year<=2018 and month in [ "September", "October", "November"]:
     print("You are a fall baby of the two thousands!")
-    if 2000<=year<=2018 and month in [ "December", "January", "February"]:
+elif 2000<=year<=2018 and month in [ "December", "January", "February"]:
     print("You are a winter baby of the two thousands!")
-    if 2000<=year<=2018 and month in [ "March", "April", "May"]:
+elif 2000<=year<=2018 and month in [ "March", "April", "May"]:
     print("You are a spring baby of the two thousands!")
-    if 2000<=year<=2018 and month in [ "June", "July", "August"]:
+elif 2000<=year<=2018 and month in [ "June", "July", "August"]:
     print("You are a summer baby of the two thousands!")
 
 
