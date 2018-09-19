@@ -34,12 +34,75 @@ Example Session
 
 name = input("Hello, what is your name? ")
 month = input("Hi, " + name + " what month were you born in? ")
-year = input("And what year were you born in, " + name + "? ")
+year = int(input("And what year were you born in, " + name + "? "))
 day= input("And the day? ")
 
+#Halloween and Birthday
 if month == "October" and day == "31": 
     print("You were born on Halloween!")
-if month == "September" and day == "12": 
+if month == "September" and day == "17": 
     print("Happy Birthday!")
+ 
+#Baby Boomers
+if 1946<=year<=1964 and month in [ "September", "October", "November"]:
+    print("You are a fall Baby Boomer!")
+if 1946<=year<=1964 and month in [ "December", "January", "February"]:
+    print("You are a winter Baby Boomer!")
+if 1946<=year<=1964 and month in [ "March", "April", "May"]:
+    print("You are a spring Baby Boomer!")
+if 1946<=year<=1964 and month in [ "June", "July", "August"]:
+    print("You are a summer Baby Boomer!")
+    
+#Generation X
+if 1965<=year<=1974 and month in [ "September", "October", "November"]:
+    print("You are a fall baby of Generation X!")
+if 1965<=year<=1974 and month in [ "December", "January", "February"]:
+    print("You are a winter baby of Generation X!")
+if 1965<=year<=1974 and month in [ "March", "April", "May"]:
+    print("You are a spring baby of Generation X !")
+if 1965<=year<=1974 and month in [ "June", "July", "August"]:
+    print("You are a summer baby of Generation X!")
+    
+#Xennials
+if 1975<=year<=1979 and month in [ "September", "October", "November"]:
+    print("You are a fall Xennial!")
+if 1975<=year<=1979 and month in [ "December", "January", "February"]:
+    print("You are a winter Xennial!")
+if 1975<=year<=1979 and month in [ "March", "April", "May"]:
+    print("You are a spring Xennial !")
+if 1975<=year<=1979 and month in [ "June", "July", "August"]:
+    print("You are a summer Xennial!")
+    
+#Millennials
+if 1980<=year<=1994 and month in [ "September", "October", "November"]:
+    print("You are a fall Millennial!")
+if 1980<=year<=1994 and month in [ "December", "January", "February"]:
+    print("You are a winter Millennial!")
+if 1980<=year<=1994 and month in [ "March", "April", "May"]:
+    print("You are a spring Millennial !")
+if 1980<=year<=1994 and month in [ "June", "July", "August"]:
+    print("You are a summer Millennial!")
+
+#Generation Z
+if 1995<=year<=2012 and month in [ "September", "October", "November"]:
+    print("You are a fall baby of Generation Z!")
+if 1995<=year<=2012 and month in [ "December", "January", "February"]:
+    print("You are a winter baby of Generation Z!")
+if 1995<=year<=2012 and month in [ "March", "April", "May"]:
+    print("You are a spring baby of Generation Z!")
+if 1995<=year<=2012 and month in [ "June", "July", "August"]:
+    print("You are a summer baby of Generation Z!")
+
+#Generation Alpha
+if 2012<=year<=2025 and month in [ "September", "October", "November"]:
+    print("You are a fall baby of Generation Alpha!")
+if 2012<=year<=2025 and month in [ "December", "January", "February"]:
+    print("You are a winter baby of Generation Alpha!")
+if 2012<=year<=2025 and month in [ "March", "April", "May"]:
+    print("You are a spring baby of Generation Alpha!")
+if 2012<=year<=2025 and month in [ "June", "July", "August"]:
+    print("You are a summer baby of Generation Alpha!")
+
+
 
 
